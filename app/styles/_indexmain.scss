@@ -1,0 +1,38 @@
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+}
+
+.myprojects {
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid__item {
+  flex-basis: calc(100% / 2 -2rem);
+  flex-grow: 1;
+  margin: 1rem;
+
+  &--left {
+    padding: 1rem;
+  }
+
+  &--words {
+    max-width: 100%;
+  }
+
+  &--pic {
+    max-width: 25rem;
+    max-height: 20rem;
+  }
+}
