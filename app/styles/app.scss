@@ -15,42 +15,5 @@ $c-black: #000;
 @import 'reset';
 @import 'topnav';
 @import 'indexmain';
-
-
-
-.bottom {
-  padding: 2rem;
-  background: $c-black;
-  display: flex;
-}
-
-.icon {
- margin: auto;
-}
-
-.icons {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  max-width: 2rem;
-}
-
-
-.images {
-  margin: 0 auto;
-  display: flex;
-  max-width: 50rem;
-
-  &__section {
-    padding: 2rem;
-    background: $c-test;
-  }
-}
-
-.images__section--image {
-  max-height: 15rem;
-  display: inline-block;
-  margin: 1rem;
-
-
-}
+@import 'footer';
+@import 'city';

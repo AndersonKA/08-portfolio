@@ -21,10 +21,17 @@
 .grid__item {
   flex-basis: calc(100% / 2 -2rem);
   flex-grow: 1;
-  margin: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
 
   &--left {
     padding: 1rem;
+    max-width: 30rem;
   }
 
   &--words {
