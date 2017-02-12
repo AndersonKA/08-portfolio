@@ -2,24 +2,32 @@
   flex-basis: calc(100% / 2 -2rem);
   flex-grow: 1;
   flex-wrap: wrap;
-  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  background: $c-test;
+  margin: 1rem;
+
+  &--group {
+    position: relative;
+  }
+
+  &--images {
+    display: flex;
+    max-height: 15rem;
+  }
+
+  &--text {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    padding: 0.5rem;
+    background: $c-test;
+  }
+
 }
 
-.grid__items--images {
-  display: flex;
-  position: relative;
-  max-height: 15rem;
-  margin: 0.5rem;
-}
 
-.grid__items--text {
-  position: absolute;
-  top: 0;
-  padding: 0.5rem;
-  background: $c-title;
+.grid__items--images:hover {
+  background: $c-topnav;
 }
