@@ -1,0 +1,41 @@
+.card {
+  position: relative;
+  min-width: 14rem;
+  max-width: 25rem;
+  border: 0.25px solid #c5d2d4;
+}
+
+.top-part {
+  position: relative;
+}
+
+.yellow {
+  background: $c-salmon;
+  padding: 2rem;
+  position: relative;
+}
+
+.week-tag {
+  background: $c-dark;
+  color: $c-white;
+  padding: 0.5rem;
+  position: absolute;
+  margin: 0;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card__pic {
+  max-height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: 0;
+  left: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-bottom {
+  margin: 1rem;
+}

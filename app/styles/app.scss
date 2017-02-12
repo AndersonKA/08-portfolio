@@ -8,8 +8,9 @@ $c-test: #39cacf;
 $c-topnav: #2f3d4b;
 $c-title: #3392c8;
 $c-white: #fff;
-$c-dark: #1e2122;
+$c-dark: #2d2e2f;
 $c-black: #000;
+$c-salmon: #E74C3C;
 
 @import 'box-sizing';
 @import 'reset';
@@ -17,3 +18,4 @@ $c-black: #000;
 @import 'indexmain';
 @import 'footer';
 @import 'city';
+@import 'blog';
