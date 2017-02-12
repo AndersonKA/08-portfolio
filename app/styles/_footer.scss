@@ -3,20 +3,17 @@
   margin: auto;
   background: $c-black;
   display: flex;
-}
-
-.icon {
- display: flex;
- justify-content: center;
- text-align: center;
- align-items: center;
- background: $c-test;
- padding: 0.5rem;
-}
-
-.icons {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: 2rem;
+  margin: 1rem;
 }
