@@ -20,14 +20,18 @@
   &--text {
     position: absolute;
     top: 0;
-    left: 10%;
-    padding: 0.5rem;
-    background: $c-test;
-  }
-
+    left: 12%;
+    padding: 1rem;
+    visibility: hidden;
+    opacity: 0;
 }
 
+  .grid__items--group:hover .grid__items--text {
+    visibility: visible;
+    opacity: 1;
 
-.grid__items--images:hover {
-  background: $c-topnav;
+  }
+
+
+
 }
