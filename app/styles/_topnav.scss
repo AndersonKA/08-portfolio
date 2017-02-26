@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: $c-topnav;
+  color: $c-white;
+  font-size: 1.5rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.navbar__right {
+  color: $c-white;
+  text-decoration: none;
+}
+
+.navbar__right--link {
+  padding: 0.5rem;
+  color: $c-white;
+  text-decoration: none;
+
+  &:hover {
+    background: $c-title;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: $c-title;
+}
+
+.title__top {
+  color: $c-dark;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.title__bottom {
+  padding: 1rem;
+  color: $c-white;
+  font-size: 1.25rem;
+}

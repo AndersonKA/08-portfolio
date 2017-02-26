@@ -1,0 +1,43 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__items {
+  flex-basis: calc(100% / 4 - 2rem);
+  flex-grow: 1;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 1rem;
+  background: $c-title;
+
+  &--group {
+    position: relative;
+  }
+
+  &--images {
+    display: flex;
+    max-height: 12rem;
+  }
+
+  &--text {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    padding: 1rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+  .grid__items--group:hover .grid__items--text {
+    visibility: visible;
+    opacity: 1;
+
+  }
+
+
+
+}

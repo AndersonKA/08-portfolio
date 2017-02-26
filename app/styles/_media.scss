@@ -1,0 +1,24 @@
+@media(max-width: 500px) {
+  .rectangle {
+         width: 12rem;
+         height: 12rem;
+         overflow:hidden;
+     }
+
+     .rectangle__pic {
+       width:auto;
+       height: 100%;
+     }
+
+.grid__items--text {
+   width: 13rem;
+}
+
+.title__top {
+  text-align: center;
+}
+
+.title__bottom {
+  text-align: center;
+}
+}

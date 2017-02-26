@@ -1,0 +1,19 @@
+.bottom {
+  padding: 2rem;
+  margin: auto;
+  background: $c-black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 2rem;
+  margin: 1rem;
+}

@@ -1,6 +1,26 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
+
+$c-test: #39cacf;
+$c-topnav: #2f3d4b;
+$c-title: #3392c8;
+$c-white: #fff;
+$c-dark: #2d2e2f;
+$c-black: #000;
+$c-salmon: #E74C3C;
+
 @import 'box-sizing';
+@import 'reset';
+@import 'topnav';
+@import 'indexmain';
+@import 'footer';
+@import 'city';
+@import 'blog';
+
+
+
+
+@import 'media';
